@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Word Count</title>
+<style>
+body {
+  font-size: 18px;
+  font-family: georgia;
+  color: #333;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+<p>
+  <textarea id="t"></textarea>
+</p>
+
+<p>
+  Number of characters: <span id="result"></span>
+</p>
+
+<p>
+  <button id="b">Count Characters</button>
+</p>
+
+<script src="../../vendor/jquery-2.1.0.min.js"></script>
+<script>
+$("#b").on("click", function (e) {
+  var s = $("#t").val();
+  var length = s.length;
+  $("#result").html(length);
+});
+</script>
+
+</body>
+</html>

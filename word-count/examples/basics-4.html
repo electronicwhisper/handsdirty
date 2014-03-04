@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Word Count</title>
+<style>
+textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 18px;
+}
+</style>
+</head>
+<body>
+
+<div>
+  <textarea id="t"></textarea>
+</div>
+
+<div>
+  <button id="b">Click Me</button>
+</div>
+
+<script src="../../vendor/jquery-2.1.0.min.js"></script>
+<script>
+$("#b").on("click", function (e) {
+  console.log("Got a click!");
+});
+</script>
+
+</body>
+</html>

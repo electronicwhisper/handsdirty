@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Word Count</title>
+<style>
+body {
+  font-size: 18px;
+  font-family: georgia;
+  color: #333;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  font-size: 18px;
+}
+#ransom {
+  font-size: 24px;
+}
+</style>
+</head>
+<body>
+
+<p>
+  <textarea id="t"></textarea>
+</p>
+
+<p id="ransom"></p>
+
+<script src="../../vendor/jquery-2.1.0.min.js"></script>
+<script>
+$("#t").on("input", function (e) {
+  var s = $("#t").val();
+
+  html = "";
+  for (var i = 0; i < s.length; i++) {
+    var r = Math.random();
+    if (r < 0.333) {
+      html += "<b>" + s.charAt(i) + "</b>";
+    } else if (r < 0.666) {
+      html += "<i>" + s.charAt(i) + "</i>";
+    } else {
+      html += "<u>" + s.charAt(i) + "</u>";
+    }
+  }
+  $("#ransom").html(html);
+});
+</script>
+
+</body>
+</html>

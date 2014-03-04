@@ -1,0 +1,44 @@
+body {
+  font-family: georgia;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  max-width: 600px;
+  margin: 60px auto;
+}
+h1, h2 {
+  font-family: 'Waiting for the Sunrise';
+  color: #000;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.8em;
+}
+code {
+  background-color: #ddd;
+  padding: 0 0.25em;
+  color: #000;
+}
+em {
+  color: #c06;
+  font-weight: bold;
+}
+a {
+  color: #08f;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #08f;
+}
+strong {
+  color: #000;
+}
+.markdown img {
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.markdown hr {
+  border: 0;
+  margin: 0;
+  margin-top: 8em;
+}

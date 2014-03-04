@@ -1,0 +1,92 @@
+
+
+These exercises are designed to help you:
+
+### Develop your personal iteration rhythm.
+
+An iteration consists of writing a *small amount of code*, and then *confirming* that the code does what you expect. Confirmation may be as simple as checking if something showed up on the screen or that your code outputed something to the console. You repeat this process, code, confirm, code, confirm, until your program is complete.
+
+Think of programming like rock climbing. To reach a far-off goal, you can't just get there in one jump. You need to get from one foot-hold to another, at each step regaining your balance before going for the next step.
+
+Experienced programmers can often take bigger steps. But programming mastery is less about big steps and more about *finding the foot-holds*, seeing how to break a complex problem down into simple sub-problems. At a deep level, breaking a problem down *is* computer programming.
+
+### Learn how to find and read documentation.
+
+
+
+### Learn how to debug.
+
+A bug is something that happens that you didn't expect to happen. To fix a bug, you must *isolate* it. You need to answer the question: "Where is my code doing something that I didn't expect it to do."
+
+This goes along with making small changes. If you make a small change and something breaks, then usually that means the bug is in the change you just did. Whereas if you type a ton of code all at once, *and then* you test it, if it doesn't work then you have more "code area" to search in order to find the bug.
+
+
+
+
+
+
+
+
+* Did something show up on the screen?
+* Does the console have an error in it?
+* Can I make my code output something to the console to be sure that it's doing what I think it's doing?
+* Can I run code in the console to see if that's the correct way to write it?
+* Can I run code in the console to see if the state of my program is what I expect?
+
+
+
+
+
+
+
+
+Getting into your personal iteration rhythm.
+
+Iteration rhythm
+  Make a small change
+  See if it works
+    Formal: Testing
+    Informal: Does something show up on the screen? Does the console have an error in it? Can I make my change output something to the console to be sure that it's doing what I think it's doing? Can I run an expression in the console to see if that's the right way to write the expression? Can I run an expression in the console to see if the state of my program is what I expect?
+
+Learning how to debug.
+
+
+Learn how to find and read documentation: know what you can do.
+
+Learn the vocabulary: know how to look up what you don't know.
+
+
+
+
+
+Glossary
+
+expression
+attribute
+element
+node
+event
+handler (aka listener)
+callback
+bug
+error
+string
+select (jQuery)
+
+
+
+
+
+
+
+
+
+Drag and Drop
+=============
+
+
+
+Whack a Mole
+============
+
+
